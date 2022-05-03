@@ -1,1 +1,2 @@
 web: gunicorn foodiepy.wsgi --log-file - 
+web: manage.py runserver
