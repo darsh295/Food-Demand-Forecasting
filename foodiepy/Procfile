@@ -1,2 +1,2 @@
-web: gunicorn foodiepy.wsgi:application --log-file - --log-level debug
+web: gunicorn foodiepy.wsgi --log-file - 
 manage.py runserver
