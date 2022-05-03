@@ -27,7 +27,7 @@ SECRET_KEY = 'i!ksanv@4-=qd9z0p_^f()6r=)lyw8fx_73u-pvn2&d4hdv$9e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://foodiepy.herokuapp.com/']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
