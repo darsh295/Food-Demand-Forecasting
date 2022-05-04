@@ -1,1 +1,1 @@
-web: gunicorn foodiepy.wsgi
+web: gunicorn --pythonpath foodiepy foodiepy.wsgi
